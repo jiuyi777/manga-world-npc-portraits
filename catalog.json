@@ -1,0 +1,1124 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "manga-world-npc-portraits",
+  "catalogVersion": "2026-08-29.1",
+  "generatedAt": "2026-08-28T17:42:16.666Z",
+  "urlPolicy": "所有图片路径相对 catalog.json 解析；角色卡只配置一个 catalogUrl。",
+  "policy": {
+    "allRelationshipEligibleNpcsMustBeAdults": true,
+    "visualAgeMeaning": "少年感只描述成年角色的外貌气质，不表示未成年。",
+    "appendOnlyGroupIds": true,
+    "reuseActiveGroup": false,
+    "unknownMatch": "leave-null"
+  },
+  "matching": {
+    "requiredNpcFields": [
+      "appearanceProfile.visualAge",
+      "appearanceProfile.hairStyle",
+      "appearanceProfile.hairColor",
+      "appearanceProfile.eyeColor"
+    ],
+    "optionalNpcFields": [
+      "appearanceProfile.featureTags"
+    ],
+    "tieBreak": "复用 NPC 生成记录的 1d20 natural；不新增投骰或额外 AI。",
+    "noActiveReuse": true,
+    "noMatch": "portraitGroupId 与 portraitAssetKey 保持 null"
+  },
+  "groups": [
+    {
+      "id": "character-001",
+      "appearanceProfile": {
+        "visualAge": "少年感",
+        "hairStyle": "短碎发",
+        "hairColor": "黑色",
+        "eyeColor": "蓝色",
+        "featureTags": []
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-001:1543004438313308270",
+      "assetKeys": [
+        "discord-1460356384469291012:character-001:1543004436732059688",
+        "discord-1460356384469291012:character-001:1543004437293826098",
+        "discord-1460356384469291012:character-001:1543004437872771173",
+        "discord-1460356384469291012:character-001:1543004438313308270"
+      ]
+    },
+    {
+      "id": "character-002",
+      "appearanceProfile": {
+        "visualAge": "少年感",
+        "hairStyle": "微卷短发",
+        "hairColor": "银白色",
+        "eyeColor": "绿色",
+        "featureTags": []
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-002:1543004466440314940",
+      "assetKeys": [
+        "discord-1460356384469291012:character-002:1543004464330444901",
+        "discord-1460356384469291012:character-002:1543004464707801179",
+        "discord-1460356384469291012:character-002:1543004465181753434",
+        "discord-1460356384469291012:character-002:1543004465823617095",
+        "discord-1460356384469291012:character-002:1543004466440314940"
+      ]
+    },
+    {
+      "id": "character-003",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "微卷中短发",
+        "hairColor": "黑色",
+        "eyeColor": "蓝灰色",
+        "featureTags": []
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-003:1543004483410337922",
+      "assetKeys": [
+        "discord-1460356384469291012:character-003:1543004482495975615",
+        "discord-1460356384469291012:character-003:1543004483037171732",
+        "discord-1460356384469291012:character-003:1543004483410337922"
+      ]
+    },
+    {
+      "id": "character-004",
+      "appearanceProfile": {
+        "visualAge": "少年感",
+        "hairStyle": "短发",
+        "hairColor": "金色",
+        "eyeColor": "紫色",
+        "featureTags": []
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-004:1543004502951731250",
+      "assetKeys": [
+        "discord-1460356384469291012:character-004:1543004502158872636",
+        "discord-1460356384469291012:character-004:1543004502511059077",
+        "discord-1460356384469291012:character-004:1543004502951731250"
+      ]
+    },
+    {
+      "id": "character-005",
+      "appearanceProfile": {
+        "visualAge": "少年感",
+        "hairStyle": "侧分中短发",
+        "hairColor": "粉色",
+        "eyeColor": "青绿色",
+        "featureTags": []
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-005:1543004540377370736",
+      "assetKeys": [
+        "discord-1460356384469291012:character-005:1543004537772834886",
+        "discord-1460356384469291012:character-005:1543004538607243364",
+        "discord-1460356384469291012:character-005:1543004539236651008",
+        "discord-1460356384469291012:character-005:1543004539790037094",
+        "discord-1460356384469291012:character-005:1543004540377370736"
+      ]
+    },
+    {
+      "id": "character-006",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "层次中发",
+        "hairColor": "浅蓝色",
+        "eyeColor": "红色",
+        "featureTags": [
+          "蓝色挑染"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-006:1543004555279605820",
+      "assetKeys": [
+        "discord-1460356384469291012:character-006:1543004555279605820",
+        "discord-1460356384469291012:character-006:1543004555657216071",
+        "discord-1460356384469291012:character-006:1543004556026449930",
+        "discord-1460356384469291012:character-006:1543004556407869571"
+      ]
+    },
+    {
+      "id": "character-007",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "侧分短发",
+        "hairColor": "黑色",
+        "eyeColor": "绿色",
+        "featureTags": [
+          "绿色挑染"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-007:1543004579598307368",
+      "assetKeys": [
+        "discord-1460356384469291012:character-007:1543004579598307368",
+        "discord-1460356384469291012:character-007:1543004580110008330"
+      ]
+    },
+    {
+      "id": "character-008",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "侧分短发",
+        "hairColor": "紫色",
+        "eyeColor": "紫灰色",
+        "featureTags": [
+          "眼镜"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-008:1543004611928002570",
+      "assetKeys": [
+        "discord-1460356384469291012:character-008:1543004611928002570",
+        "discord-1460356384469291012:character-008:1543004612288585908",
+        "discord-1460356384469291012:character-008:1543004612666064956"
+      ]
+    },
+    {
+      "id": "character-009",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "微卷短发",
+        "hairColor": "棕色",
+        "eyeColor": "琥珀色",
+        "featureTags": []
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-009:1543004627178360902",
+      "assetKeys": [
+        "discord-1460356384469291012:character-009:1543004626771775578",
+        "discord-1460356384469291012:character-009:1543004627178360902"
+      ]
+    },
+    {
+      "id": "character-010",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "蓬松短发",
+        "hairColor": "橙色",
+        "eyeColor": "蓝绿色",
+        "featureTags": []
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-010:1543004649806630955",
+      "assetKeys": [
+        "discord-1460356384469291012:character-010:1543004649806630955",
+        "discord-1460356384469291012:character-010:1543004650234712114"
+      ]
+    },
+    {
+      "id": "character-011",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "短发",
+        "hairColor": "银灰色",
+        "eyeColor": "灰色",
+        "featureTags": [
+          "眼镜"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-011:1543005133716062218",
+      "assetKeys": [
+        "discord-1460356384469291012:character-011:1543005132655042651",
+        "discord-1460356384469291012:character-011:1543005133149835275",
+        "discord-1460356384469291012:character-011:1543005133716062218"
+      ]
+    },
+    {
+      "id": "character-012",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "蓬松短发",
+        "hairColor": "蓝灰色",
+        "eyeColor": "紫色",
+        "featureTags": []
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-012:1543013190332325938",
+      "assetKeys": [
+        "discord-1460356384469291012:character-012:1543013190332325938",
+        "discord-1460356384469291012:character-012:1543013190726586428",
+        "discord-1460356384469291012:character-012:1543013191251136684",
+        "discord-1460356384469291012:character-012:1543013191653531658"
+      ]
+    },
+    {
+      "id": "character-013",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "短发",
+        "hairColor": "粉色",
+        "eyeColor": "金色",
+        "featureTags": [
+          "兔耳造型"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-013:1543013248612433992",
+      "assetKeys": [
+        "discord-1460356384469291012:character-013:1543013247664259103",
+        "discord-1460356384469291012:character-013:1543013248092209244",
+        "discord-1460356384469291012:character-013:1543013248612433992",
+        "discord-1460356384469291012:character-013:1543013249006702602",
+        "discord-1460356384469291012:character-013:1543013249589448724"
+      ]
+    },
+    {
+      "id": "character-014",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "微卷短发",
+        "hairColor": "深棕色",
+        "eyeColor": "红色",
+        "featureTags": [
+          "猫耳造型"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-014:1543013273115299850",
+      "assetKeys": [
+        "discord-1460356384469291012:character-014:1543013272314191902",
+        "discord-1460356384469291012:character-014:1543013272754725014",
+        "discord-1460356384469291012:character-014:1543013273115299850"
+      ]
+    },
+    {
+      "id": "character-015",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "短发",
+        "hairColor": "银灰色",
+        "eyeColor": "红紫色",
+        "featureTags": [
+          "红黑造型"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-015:1543013296637083790",
+      "assetKeys": [
+        "discord-1460356384469291012:character-015:1543013296637083790",
+        "discord-1460356384469291012:character-015:1543013297064779796"
+      ]
+    },
+    {
+      "id": "character-016",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "编辫中发",
+        "hairColor": "黑白拼色",
+        "eyeColor": "红色",
+        "featureTags": [
+          "辫饰"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-016:1543013332104257626",
+      "assetKeys": [
+        "discord-1460356384469291012:character-016:1543013331257004202",
+        "discord-1460356384469291012:character-016:1543013331655458947",
+        "discord-1460356384469291012:character-016:1543013332104257626"
+      ]
+    },
+    {
+      "id": "character-017",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "微卷中发",
+        "hairColor": "黑色",
+        "eyeColor": "红色",
+        "featureTags": [
+          "颈圈"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-017:1543016053741719673",
+      "assetKeys": [
+        "discord-1460356384469291012:character-017:1543016053741719673",
+        "discord-1460356384469291012:character-017:1543016054178189412",
+        "discord-1460356384469291012:character-017:1543016054563807232"
+      ]
+    },
+    {
+      "id": "character-018",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "微卷短发",
+        "hairColor": "白色",
+        "eyeColor": "金色",
+        "featureTags": [
+          "深肤色",
+          "肌肉体型"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-018:1543016240300298320",
+      "assetKeys": [
+        "discord-1460356384469291012:character-018:1543016240300298320",
+        "discord-1460356384469291012:character-018:1543016240732446730",
+        "discord-1460356384469291012:character-018:1543016241336287343",
+        "discord-1460356384469291012:character-018:1543016241730682960"
+      ]
+    },
+    {
+      "id": "character-019",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "层次中发",
+        "hairColor": "黑蓝色",
+        "eyeColor": "绿色",
+        "featureTags": [
+          "蓝色挑染"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-019:1543016306096210131",
+      "assetKeys": [
+        "discord-1460356384469291012:character-019:1543016305488040126",
+        "discord-1460356384469291012:character-019:1543016306096210131",
+        "discord-1460356384469291012:character-019:1543016306524164216"
+      ]
+    },
+    {
+      "id": "character-020",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "短发",
+        "hairColor": "深蓝色",
+        "eyeColor": "浅灰色",
+        "featureTags": [
+          "深肤色",
+          "肌肉体型"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-020:1543023503077548133",
+      "assetKeys": [
+        "discord-1460356384469291012:character-020:1543023502385352704",
+        "discord-1460356384469291012:character-020:1543023502733352960",
+        "discord-1460356384469291012:character-020:1543023503077548133"
+      ]
+    },
+    {
+      "id": "character-021",
+      "appearanceProfile": {
+        "visualAge": "青年感",
+        "hairStyle": "黑色长直发",
+        "hairColor": "黑色",
+        "eyeColor": "灰色",
+        "featureTags": [
+          "眼镜"
+        ]
+      },
+      "adultOnly": true,
+      "defaultPortraitAssetKey": "discord-1460356384469291012:character-021:1543027599926894612",
+      "assetKeys": [
+        "discord-1460356384469291012:character-021:1543027599926894612",
+        "discord-1460356384469291012:character-021:1543027600308568174",
+        "discord-1460356384469291012:character-021:1543027600711090237",
+        "discord-1460356384469291012:character-021:1543027601096970371"
+      ]
+    }
+  ],
+  "assets": {
+    "discord-1460356384469291012:character-001:1543004436732059688": {
+      "assetKey": "discord-1460356384469291012:character-001:1543004436732059688",
+      "portraitGroupId": "character-001",
+      "kind": "image",
+      "path": "character-001/1543004436732059688__Scene_Composition_1boy_street_corner_bench_outdoor-0.png",
+      "bytes": 1349974,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-001:1543004437293826098": {
+      "assetKey": "discord-1460356384469291012:character-001:1543004437293826098",
+      "portraitGroupId": "character-001",
+      "kind": "image",
+      "path": "character-001/1543004437293826098__Scene_Composition_1boy_street_rain_wet_ground_pudd-0.png",
+      "bytes": 1498689,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-001:1543004437872771173": {
+      "assetKey": "discord-1460356384469291012:character-001:1543004437872771173",
+      "portraitGroupId": "character-001",
+      "kind": "image",
+      "path": "character-001/1543004437872771173__Scene_Composition_1boy_library_wooden_desk_window_-0.png",
+      "bytes": 1311871,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-001:1543004438313308270": {
+      "assetKey": "discord-1460356384469291012:character-001:1543004438313308270",
+      "portraitGroupId": "character-001",
+      "kind": "image",
+      "path": "character-001/1543004438313308270__Scene_Composition_1boy_simple_background_white_bac-0_1.png",
+      "bytes": 1687778,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-002:1543004464330444901": {
+      "assetKey": "discord-1460356384469291012:character-002:1543004464330444901",
+      "portraitGroupId": "character-002",
+      "kind": "image",
+      "path": "character-002/1543004464330444901__Scene_Composition_1boy_school_rooftop_wire_fence_w-0.png",
+      "bytes": 1556102,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-002:1543004464707801179": {
+      "assetKey": "discord-1460356384469291012:character-002:1543004464707801179",
+      "portraitGroupId": "character-002",
+      "kind": "image",
+      "path": "character-002/1543004464707801179__Scene_Composition_1boy_street_corner_bench_outdoor-0_1.png",
+      "bytes": 1310868,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-002:1543004465181753434": {
+      "assetKey": "discord-1460356384469291012:character-002:1543004465181753434",
+      "portraitGroupId": "character-002",
+      "kind": "image",
+      "path": "character-002/1543004465181753434__Scene_Composition_1boy_street_rain_wet_ground_pudd-0_1.png",
+      "bytes": 1884279,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-002:1543004465823617095": {
+      "assetKey": "discord-1460356384469291012:character-002:1543004465823617095",
+      "portraitGroupId": "character-002",
+      "kind": "image",
+      "path": "character-002/1543004465823617095__Scene_Composition_1boy_library_wooden_desk_window_-0_1.png",
+      "bytes": 1415905,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-002:1543004466440314940": {
+      "assetKey": "discord-1460356384469291012:character-002:1543004466440314940",
+      "portraitGroupId": "character-002",
+      "kind": "image",
+      "path": "character-002/1543004466440314940__Scene_Composition_1boy_simple_background_white_bac-0_2.png",
+      "bytes": 1269508,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-003:1543004482495975615": {
+      "assetKey": "discord-1460356384469291012:character-003:1543004482495975615",
+      "portraitGroupId": "character-003",
+      "kind": "image",
+      "path": "character-003/1543004482495975615__Scene_Composition_1boy_1man_rooftop_terrace_citysc-0.png",
+      "bytes": 1334989,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-003:1543004483037171732": {
+      "assetKey": "discord-1460356384469291012:character-003:1543004483037171732",
+      "portraitGroupId": "character-003",
+      "kind": "image",
+      "path": "character-003/1543004483037171732__Scene_Composition_1boy_1man_city_street_rain_wet_s-1.png",
+      "bytes": 1442863,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-003:1543004483410337922": {
+      "assetKey": "discord-1460356384469291012:character-003:1543004483410337922",
+      "portraitGroupId": "character-003",
+      "kind": "image",
+      "path": "character-003/1543004483410337922__Scene_Composition_1boy_1man_simple_background_whit-5.png",
+      "bytes": 1066873,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-004:1543004502158872636": {
+      "assetKey": "discord-1460356384469291012:character-004:1543004502158872636",
+      "portraitGroupId": "character-004",
+      "kind": "image",
+      "path": "character-004/1543004502158872636__Scene_Composition_1boy_subway_station_train_platfo-0.png",
+      "bytes": 1177605,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-004:1543004502511059077": {
+      "assetKey": "discord-1460356384469291012:character-004:1543004502511059077",
+      "portraitGroupId": "character-004",
+      "kind": "image",
+      "path": "character-004/1543004502511059077__Scene_Composition_1boy_beach_sunset_ocean_waves_we-0.png",
+      "bytes": 1168878,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-004:1543004502951731250": {
+      "assetKey": "discord-1460356384469291012:character-004:1543004502951731250",
+      "portraitGroupId": "character-004",
+      "kind": "image",
+      "path": "character-004/1543004502951731250__Scene_Composition_1boy_simple_background_white_bac-1.png",
+      "bytes": 1123020,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-005:1543004537772834886": {
+      "assetKey": "discord-1460356384469291012:character-005:1543004537772834886",
+      "portraitGroupId": "character-005",
+      "kind": "image",
+      "path": "character-005/1543004537772834886__Scene_Composition_1man_ginkgo_avenue_golden_leaves-0.png",
+      "bytes": 1488180,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-005:1543004538607243364": {
+      "assetKey": "discord-1460356384469291012:character-005:1543004538607243364",
+      "portraitGroupId": "character-005",
+      "kind": "image",
+      "path": "character-005/1543004538607243364__Scene_Composition_1man_pottery_studio_pottery_whee-0.png",
+      "bytes": 1239474,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-005:1543004539236651008": {
+      "assetKey": "discord-1460356384469291012:character-005:1543004539236651008",
+      "portraitGroupId": "character-005",
+      "kind": "image",
+      "path": "character-005/1543004539236651008__Scene_Composition_1man_infinity_pool_rooftop_sunse-0.png",
+      "bytes": 1181151,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-005:1543004539790037094": {
+      "assetKey": "discord-1460356384469291012:character-005:1543004539790037094",
+      "portraitGroupId": "character-005",
+      "kind": "image",
+      "path": "character-005/1543004539790037094__Scene_Composition_1man_food_stall_night_steam_red_-0.png",
+      "bytes": 1224890,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-005:1543004540377370736": {
+      "assetKey": "discord-1460356384469291012:character-005:1543004540377370736",
+      "portraitGroupId": "character-005",
+      "kind": "image",
+      "path": "character-005/1543004540377370736__Scene_Composition_1man_simple_background_white_bac-0.png",
+      "bytes": 1278069,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-006:1543004555279605820": {
+      "assetKey": "discord-1460356384469291012:character-006:1543004555279605820",
+      "portraitGroupId": "character-006",
+      "kind": "image",
+      "path": "character-006/1543004555279605820__Scene_Composition_1man_simple_background_white_bac-0_1.png",
+      "bytes": 1236017,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-006:1543004555657216071": {
+      "assetKey": "discord-1460356384469291012:character-006:1543004555657216071",
+      "portraitGroupId": "character-006",
+      "kind": "image",
+      "path": "character-006/1543004555657216071__Scene_Composition_1man_recording_studio_soundproof-1.png",
+      "bytes": 1417792,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-006:1543004556026449930": {
+      "assetKey": "discord-1460356384469291012:character-006:1543004556026449930",
+      "portraitGroupId": "character-006",
+      "kind": "image",
+      "path": "character-006/1543004556026449930__Scene_Composition_1man_footbridge_metal_railing_ci-2.png",
+      "bytes": 1233571,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-006:1543004556407869571": {
+      "assetKey": "discord-1460356384469291012:character-006:1543004556407869571",
+      "portraitGroupId": "character-006",
+      "kind": "image",
+      "path": "character-006/1543004556407869571__Scene_Composition_1man_recording_studio_soundproof-2.png",
+      "bytes": 1445365,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-007:1543004579598307368": {
+      "assetKey": "discord-1460356384469291012:character-007:1543004579598307368",
+      "portraitGroupId": "character-007",
+      "kind": "image",
+      "path": "character-007/1543004579598307368__Scene_Composition_1man_simple_background_white_bac-1.png",
+      "bytes": 1068039,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-007:1543004580110008330": {
+      "assetKey": "discord-1460356384469291012:character-007:1543004580110008330",
+      "portraitGroupId": "character-007",
+      "kind": "image",
+      "path": "character-007/1543004580110008330__Scene_Composition_1man_vintage_train_cabin_wooden_-1.png",
+      "bytes": 1480256,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-008:1543004611928002570": {
+      "assetKey": "discord-1460356384469291012:character-008:1543004611928002570",
+      "portraitGroupId": "character-008",
+      "kind": "image",
+      "path": "character-008/1543004611928002570__Scene_Composition_1man_simple_background_white_bac-0_2.png",
+      "bytes": 1687746,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-008:1543004612288585908": {
+      "assetKey": "discord-1460356384469291012:character-008:1543004612288585908",
+      "portraitGroupId": "character-008",
+      "kind": "image",
+      "path": "character-008/1543004612288585908__Scene_Composition_1man_lakeside_pier_wooden_bridge-0.png",
+      "bytes": 1188218,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-008:1543004612666064956": {
+      "assetKey": "discord-1460356384469291012:character-008:1543004612666064956",
+      "portraitGroupId": "character-008",
+      "kind": "image",
+      "path": "character-008/1543004612666064956__Scene_Composition_1man_art_studio_sketches_on_wall-2.png",
+      "bytes": 1765421,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-009:1543004626771775578": {
+      "assetKey": "discord-1460356384469291012:character-009:1543004626771775578",
+      "portraitGroupId": "character-009",
+      "kind": "image",
+      "path": "character-009/1543004626771775578__Scene_Composition_1man_rooftop_terrace_glass_raili-0.png",
+      "bytes": 1401530,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-009:1543004627178360902": {
+      "assetKey": "discord-1460356384469291012:character-009:1543004627178360902",
+      "portraitGroupId": "character-009",
+      "kind": "image",
+      "path": "character-009/1543004627178360902__Scene_Composition_1man_convenience_store_entrance_-0.png",
+      "bytes": 1507758,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-010:1543004649806630955": {
+      "assetKey": "discord-1460356384469291012:character-010:1543004649806630955",
+      "portraitGroupId": "character-010",
+      "kind": "image",
+      "path": "character-010/1543004649806630955__Scene_Composition_1man_gas_station_vintage_gas_pum-0.png",
+      "bytes": 1169806,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-010:1543004650234712114": {
+      "assetKey": "discord-1460356384469291012:character-010:1543004650234712114",
+      "portraitGroupId": "character-010",
+      "kind": "image",
+      "path": "character-010/1543004650234712114__Scene_Composition_1man_mountain_lookout_wooden_rai-0.png",
+      "bytes": 1174983,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-011:1543005132655042651": {
+      "assetKey": "discord-1460356384469291012:character-011:1543005132655042651",
+      "portraitGroupId": "character-011",
+      "kind": "image",
+      "path": "character-011/1543005132655042651__Scene_Composition_1man_boxing_gym_boxing_ring_rope-0.png",
+      "bytes": 1404545,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-011:1543005133149835275": {
+      "assetKey": "discord-1460356384469291012:character-011:1543005133149835275",
+      "portraitGroupId": "character-011",
+      "kind": "image",
+      "path": "character-011/1543005133149835275__Scene_Composition_1man_garage_motorcycle_tools_on_-0_1.png",
+      "bytes": 1556458,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-011:1543005133716062218": {
+      "assetKey": "discord-1460356384469291012:character-011:1543005133716062218",
+      "portraitGroupId": "character-011",
+      "kind": "image",
+      "path": "character-011/1543005133716062218__Scene_Composition_1man_simple_background_white_bac-4.png",
+      "bytes": 1236563,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-012:1543013190332325938": {
+      "assetKey": "discord-1460356384469291012:character-012:1543013190332325938",
+      "portraitGroupId": "character-012",
+      "kind": "image",
+      "path": "character-012/1543013190332325938__Scene_Composition_1man_simple_background_white_bac-0_7.png",
+      "bytes": 1256813,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-012:1543013190726586428": {
+      "assetKey": "discord-1460356384469291012:character-012:1543013190726586428",
+      "portraitGroupId": "character-012",
+      "kind": "image",
+      "path": "character-012/1543013190726586428__Scene_Composition_1man_close_up_bedroom_pillow_dim-1.png",
+      "bytes": 1360896,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-012:1543013191251136684": {
+      "assetKey": "discord-1460356384469291012:character-012:1543013191251136684",
+      "portraitGroupId": "character-012",
+      "kind": "image",
+      "path": "character-012/1543013191251136684__Scene_Composition_1man_bedroom_black_bedsheets_dim-0.png",
+      "bytes": 1148358,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-012:1543013191653531658": {
+      "assetKey": "discord-1460356384469291012:character-012:1543013191653531658",
+      "portraitGroupId": "character-012",
+      "kind": "image",
+      "path": "character-012/1543013191653531658__Scene_Composition_1man_pov_view_from_between_legs_-2.png",
+      "bytes": 1305023,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-013:1543013247664259103": {
+      "assetKey": "discord-1460356384469291012:character-013:1543013247664259103",
+      "portraitGroupId": "character-013",
+      "kind": "image",
+      "path": "character-013/1543013247664259103__Scene_Composition_1man_butt_shot_view_from_behind_-0.png",
+      "bytes": 1173032,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-013:1543013248092209244": {
+      "assetKey": "discord-1460356384469291012:character-013:1543013248092209244",
+      "portraitGroupId": "character-013",
+      "kind": "image",
+      "path": "character-013/1543013248092209244__Scene_Composition_1man_luxury_lounge_leather_daybe-0.png",
+      "bytes": 1395720,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-013:1543013248612433992": {
+      "assetKey": "discord-1460356384469291012:character-013:1543013248612433992",
+      "portraitGroupId": "character-013",
+      "kind": "image",
+      "path": "character-013/1543013248612433992__Scene_Composition_1man_simple_background_white_bac-0_6.png",
+      "bytes": 1777804,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-013:1543013249006702602": {
+      "assetKey": "discord-1460356384469291012:character-013:1543013249006702602",
+      "portraitGroupId": "character-013",
+      "kind": "image",
+      "path": "character-013/1543013249006702602__Scene_Composition_1man_butt_shot_view_from_behind_-2.png",
+      "bytes": 1143154,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-013:1543013249589448724": {
+      "assetKey": "discord-1460356384469291012:character-013:1543013249589448724",
+      "portraitGroupId": "character-013",
+      "kind": "image",
+      "path": "character-013/1543013249589448724__Scene_Composition_1man_private_bar_copper_counter_-2.png",
+      "bytes": 1490414,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-014:1543013272314191902": {
+      "assetKey": "discord-1460356384469291012:character-014:1543013272314191902",
+      "portraitGroupId": "character-014",
+      "kind": "image",
+      "path": "character-014/1543013272314191902__Scene_Composition_1man_indoor_shower_glass_door_fo-0.png",
+      "bytes": 1823945,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-014:1543013272754725014": {
+      "assetKey": "discord-1460356384469291012:character-014:1543013272754725014",
+      "portraitGroupId": "character-014",
+      "kind": "image",
+      "path": "character-014/1543013272754725014__Scene_Composition_1man_bedroom_double_bed_grey_she-1.png",
+      "bytes": 1298353,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-014:1543013273115299850": {
+      "assetKey": "discord-1460356384469291012:character-014:1543013273115299850",
+      "portraitGroupId": "character-014",
+      "kind": "image",
+      "path": "character-014/1543013273115299850__Scene_Composition_1man_car_backseat_leather_seats_-1.png",
+      "bytes": 1342280,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-015:1543013296637083790": {
+      "assetKey": "discord-1460356384469291012:character-015:1543013296637083790",
+      "portraitGroupId": "character-015",
+      "kind": "image",
+      "path": "character-015/1543013296637083790__Scene_Composition_1man_darkroom_red_safety_light_d-0.png",
+      "bytes": 1365963,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-015:1543013297064779796": {
+      "assetKey": "discord-1460356384469291012:character-015:1543013297064779796",
+      "portraitGroupId": "character-015",
+      "kind": "image",
+      "path": "character-015/1543013297064779796__Scene_Composition_1man_abandoned_industrial_area_r-0.png",
+      "bytes": 1544437,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-016:1543013331257004202": {
+      "assetKey": "discord-1460356384469291012:character-016:1543013331257004202",
+      "portraitGroupId": "character-016",
+      "kind": "image",
+      "path": "character-016/1543013331257004202__Scene_Composition_1man_underground_pedestrian_pass-0.png",
+      "bytes": 1943191,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-016:1543013331655458947": {
+      "assetKey": "discord-1460356384469291012:character-016:1543013331655458947",
+      "portraitGroupId": "character-016",
+      "kind": "image",
+      "path": "character-016/1543013331655458947__Scene_Composition_1man_glass_greenhouse_dry_botani-0.png",
+      "bytes": 1531025,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-016:1543013332104257626": {
+      "assetKey": "discord-1460356384469291012:character-016:1543013332104257626",
+      "portraitGroupId": "character-016",
+      "kind": "image",
+      "path": "character-016/1543013332104257626__Scene_Composition_1man_simple_background_white_bac-0_4.png",
+      "bytes": 1142950,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-017:1543016053741719673": {
+      "assetKey": "discord-1460356384469291012:character-017:1543016053741719673",
+      "portraitGroupId": "character-017",
+      "kind": "image",
+      "path": "character-017/1543016053741719673__Scene_Composition_1man_simple_background_white_bac-3_1.png",
+      "bytes": 1231415,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-017:1543016054178189412": {
+      "assetKey": "discord-1460356384469291012:character-017:1543016054178189412",
+      "portraitGroupId": "character-017",
+      "kind": "image",
+      "path": "character-017/1543016054178189412__Scene_Composition_1man_view_from_behind_low_angle_-1.png",
+      "bytes": 1303823,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-017:1543016054563807232": {
+      "assetKey": "discord-1460356384469291012:character-017:1543016054563807232",
+      "portraitGroupId": "character-017",
+      "kind": "image",
+      "path": "character-017/1543016054563807232__Scene_Composition_1man_underground_room_metal_fram-0.png",
+      "bytes": 1545656,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-018:1543016240300298320": {
+      "assetKey": "discord-1460356384469291012:character-018:1543016240300298320",
+      "portraitGroupId": "character-018",
+      "kind": "image",
+      "path": "character-018/1543016240300298320__Scene_Composition_1man_simple_background_white_bac-2.png",
+      "bytes": 1294427,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-018:1543016240732446730": {
+      "assetKey": "discord-1460356384469291012:character-018:1543016240732446730",
+      "portraitGroupId": "character-018",
+      "kind": "image",
+      "path": "character-018/1543016240732446730__Scene_Composition_1man_underground_wine_cellar_woo-1.png",
+      "bytes": 1419859,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-018:1543016241336287343": {
+      "assetKey": "discord-1460356384469291012:character-018:1543016241336287343",
+      "portraitGroupId": "character-018",
+      "kind": "image",
+      "path": "character-018/1543016241336287343__Scene_Composition_1man_bathroom_dressing_room_larg-1.png",
+      "bytes": 1419460,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-018:1543016241730682960": {
+      "assetKey": "discord-1460356384469291012:character-018:1543016241730682960",
+      "portraitGroupId": "character-018",
+      "kind": "image",
+      "path": "character-018/1543016241730682960__Scene_Composition_1man_rooftop_terrace_wet_metal_r-1.png",
+      "bytes": 1435062,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-019:1543016305488040126": {
+      "assetKey": "discord-1460356384469291012:character-019:1543016305488040126",
+      "portraitGroupId": "character-019",
+      "kind": "image",
+      "path": "character-019/1543016305488040126__Scene_Composition_1man_indoor_bathroom_marble_bath-1.png",
+      "bytes": 1494390,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-019:1543016306096210131": {
+      "assetKey": "discord-1460356384469291012:character-019:1543016306096210131",
+      "portraitGroupId": "character-019",
+      "kind": "image",
+      "path": "character-019/1543016306096210131__Scene_Composition_1man_simple_background_white_bac-1_1.png",
+      "bytes": 1391624,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-019:1543016306524164216": {
+      "assetKey": "discord-1460356384469291012:character-019:1543016306524164216",
+      "portraitGroupId": "character-019",
+      "kind": "image",
+      "path": "character-019/1543016306524164216__Scene_Composition_1man_apartment_large_glass_windo-0_1.png",
+      "bytes": 1545607,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-020:1543023502385352704": {
+      "assetKey": "discord-1460356384469291012:character-020:1543023502385352704",
+      "portraitGroupId": "character-020",
+      "kind": "image",
+      "path": "character-020/1543023502385352704__Scene_Composition_1man_indoor_swimming_pool_blue_w-0.png",
+      "bytes": 1389184,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-020:1543023502733352960": {
+      "assetKey": "discord-1460356384469291012:character-020:1543023502733352960",
+      "portraitGroupId": "character-020",
+      "kind": "image",
+      "path": "character-020/1543023502733352960__Scene_Composition_1man_view_from_behind_low_angle_-0.png",
+      "bytes": 1451660,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-020:1543023503077548133": {
+      "assetKey": "discord-1460356384469291012:character-020:1543023503077548133",
+      "portraitGroupId": "character-020",
+      "kind": "image",
+      "path": "character-020/1543023503077548133__Scene_Composition_1man_simple_background_white_bac-1_2.png",
+      "bytes": 1159848,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-021:1543027599926894612": {
+      "assetKey": "discord-1460356384469291012:character-021:1543027599926894612",
+      "portraitGroupId": "character-021",
+      "kind": "image",
+      "path": "character-021/1543027599926894612__Scene_Composition_1man_simple_background_white_bac-0_8.png",
+      "bytes": 1060097,
+      "role": "default",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-021:1543027600308568174": {
+      "assetKey": "discord-1460356384469291012:character-021:1543027600308568174",
+      "portraitGroupId": "character-021",
+      "kind": "image",
+      "path": "character-021/1543027600308568174__Scene_Composition_nsfw_1man_low_angle_view_from_ab-0.png",
+      "bytes": 1231944,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-021:1543027600711090237": {
+      "assetKey": "discord-1460356384469291012:character-021:1543027600711090237",
+      "portraitGroupId": "character-021",
+      "kind": "image",
+      "path": "character-021/1543027600711090237__Scene_Composition_1man_private_library_tall_wooden-1.png",
+      "bytes": 1377464,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    },
+    "discord-1460356384469291012:character-021:1543027601096970371": {
+      "assetKey": "discord-1460356384469291012:character-021:1543027601096970371",
+      "portraitGroupId": "character-021",
+      "kind": "image",
+      "path": "character-021/1543027601096970371__Scene_Composition_nsfw_1man_low_angle_view_from_ab-0_1.png",
+      "bytes": 1578703,
+      "role": "scene-variant",
+      "preload": "on-demand",
+      "lifetime": "chat"
+    }
+  }
+}

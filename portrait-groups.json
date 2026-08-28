@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "manga-world-npc-portraits",
+  "catalogVersion": "2026-08-29.1",
+  "policy": {
+    "allRelationshipEligibleNpcsMustBeAdults": true,
+    "visualAgeMeaning": "少年感只描述成年角色的外貌气质，不表示未成年。",
+    "appendOnlyGroupIds": true,
+    "reuseActiveGroup": false,
+    "unknownMatch": "leave-null"
+  },
+  "groups": [
+    {"id":"character-001","visualAge":"少年感","hairStyle":"短碎发","hairColor":"黑色","eyeColor":"蓝色","featureTags":[],"defaultAttachmentId":"1543004438313308270"},
+    {"id":"character-002","visualAge":"少年感","hairStyle":"微卷短发","hairColor":"银白色","eyeColor":"绿色","featureTags":[],"defaultAttachmentId":"1543004466440314940"},
+    {"id":"character-003","visualAge":"青年感","hairStyle":"微卷中短发","hairColor":"黑色","eyeColor":"蓝灰色","featureTags":[],"defaultAttachmentId":"1543004483410337922"},
+    {"id":"character-004","visualAge":"少年感","hairStyle":"短发","hairColor":"金色","eyeColor":"紫色","featureTags":[],"defaultAttachmentId":"1543004502951731250"},
+    {"id":"character-005","visualAge":"少年感","hairStyle":"侧分中短发","hairColor":"粉色","eyeColor":"青绿色","featureTags":[],"defaultAttachmentId":"1543004540377370736"},
+    {"id":"character-006","visualAge":"青年感","hairStyle":"层次中发","hairColor":"浅蓝色","eyeColor":"红色","featureTags":["蓝色挑染"],"defaultAttachmentId":"1543004555279605820"},
+    {"id":"character-007","visualAge":"青年感","hairStyle":"侧分短发","hairColor":"黑色","eyeColor":"绿色","featureTags":["绿色挑染"],"defaultAttachmentId":"1543004579598307368"},
+    {"id":"character-008","visualAge":"青年感","hairStyle":"侧分短发","hairColor":"紫色","eyeColor":"紫灰色","featureTags":["眼镜"],"defaultAttachmentId":"1543004611928002570"},
+    {"id":"character-009","visualAge":"青年感","hairStyle":"微卷短发","hairColor":"棕色","eyeColor":"琥珀色","featureTags":[],"defaultAttachmentId":"1543004627178360902"},
+    {"id":"character-010","visualAge":"青年感","hairStyle":"蓬松短发","hairColor":"橙色","eyeColor":"蓝绿色","featureTags":[],"defaultAttachmentId":"1543004649806630955"},
+    {"id":"character-011","visualAge":"青年感","hairStyle":"短发","hairColor":"银灰色","eyeColor":"灰色","featureTags":["眼镜"],"defaultAttachmentId":"1543005133716062218"},
+    {"id":"character-012","visualAge":"青年感","hairStyle":"蓬松短发","hairColor":"蓝灰色","eyeColor":"紫色","featureTags":[],"defaultAttachmentId":"1543013190332325938"},
+    {"id":"character-013","visualAge":"青年感","hairStyle":"短发","hairColor":"粉色","eyeColor":"金色","featureTags":["兔耳造型"],"defaultAttachmentId":"1543013248612433992"},
+    {"id":"character-014","visualAge":"青年感","hairStyle":"微卷短发","hairColor":"深棕色","eyeColor":"红色","featureTags":["猫耳造型"],"defaultAttachmentId":"1543013273115299850"},
+    {"id":"character-015","visualAge":"青年感","hairStyle":"短发","hairColor":"银灰色","eyeColor":"红紫色","featureTags":["红黑造型"],"defaultAttachmentId":"1543013296637083790"},
+    {"id":"character-016","visualAge":"青年感","hairStyle":"编辫中发","hairColor":"黑白拼色","eyeColor":"红色","featureTags":["辫饰"],"defaultAttachmentId":"1543013332104257626"},
+    {"id":"character-017","visualAge":"青年感","hairStyle":"微卷中发","hairColor":"黑色","eyeColor":"红色","featureTags":["颈圈"],"defaultAttachmentId":"1543016053741719673"},
+    {"id":"character-018","visualAge":"青年感","hairStyle":"微卷短发","hairColor":"白色","eyeColor":"金色","featureTags":["深肤色","肌肉体型"],"defaultAttachmentId":"1543016240300298320"},
+    {"id":"character-019","visualAge":"青年感","hairStyle":"层次中发","hairColor":"黑蓝色","eyeColor":"绿色","featureTags":["蓝色挑染"],"defaultAttachmentId":"1543016306096210131"},
+    {"id":"character-020","visualAge":"青年感","hairStyle":"短发","hairColor":"深蓝色","eyeColor":"浅灰色","featureTags":["深肤色","肌肉体型"],"defaultAttachmentId":"1543023503077548133"},
+    {"id":"character-021","visualAge":"青年感","hairStyle":"黑色长直发","hairColor":"黑色","eyeColor":"灰色","featureTags":["眼镜"],"defaultAttachmentId":"1543027599926894612"}
+  ]
+}
